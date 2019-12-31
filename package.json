@@ -1,0 +1,34 @@
+{
+  "name": "avl-exam",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-redux": "^7.1.3",
+    "react-scripts": "3.1.2"
+  },
+  "config": {
+    "port": 5000
+  },
+  "scripts": {
+    "start": "cd ./app && PORT=$npm_package_config_port  yarn start && cd ..",
+    "build": "cd ./app && yarn build && cp -r build/* ../public && rm -fr build  && cd ..",
+    "test": "cd ./app && yarn test && cd ..",
+    "eject": "cd ./app && yarn eject && cd ..",
+    "deploy": "yarn build && firebase deploy",
+    "deploy:host": "yarn build && firebase deploy --only hosting"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
