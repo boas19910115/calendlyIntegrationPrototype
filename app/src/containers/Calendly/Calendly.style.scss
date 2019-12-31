@@ -1,0 +1,14 @@
+div.CalendlyContainer {
+  @include flex-fill-up;
+  height: 100%;
+  > iframe {
+    @include flex-fill-up;
+    border: none;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    a.branding {
+      display: none;
+    }
+  }
+}

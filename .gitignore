@@ -65,3 +65,4 @@ node_modules/
 .env
 public
 node_modules
+app/node_modules
