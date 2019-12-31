@@ -17,7 +17,8 @@
     "test": "cd ./app && yarn test && cd ..",
     "eject": "cd ./app && yarn eject && cd ..",
     "deploy": "yarn build && firebase deploy",
-    "deploy:host": "yarn build && firebase deploy --only hosting"
+    "deploy:host": "yarn build && firebase deploy --only hosting",
+    "echo":"ls ./"
   },
   "browserslist": {
     "production": [
