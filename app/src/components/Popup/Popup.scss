@@ -1,0 +1,26 @@
+@import "style/variable.scss";
+
+div.PopupContainer {
+  @include flex-fill-up;
+  z-index: 10;
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  div.pop-background {
+    @include flex-fill-up;
+    background-color: rgba(0, 0, 0, 0.306);
+    text-align: center;
+    div.pop-content {
+      @include flex-fill-up;
+      align-self: center;
+      width: 30vw;
+      height: 30vw;
+      max-height: 30vw;
+      > * {
+        @include flex-fill-up;
+      }
+    }
+  }
+}
