@@ -3,8 +3,12 @@ div.App {
   display: flex;
   text-align: center;
   height: 100%;
-
-  @import "./containers/Calendly/Calendly.style.scss";
+  div.BackPlatformRouteContainer {
+    @include flex-fill-up;
+  }
+  div.FrontRoutesContainer {
+    @include flex-fill-up;
+  }
 }
 
 .App-logo {

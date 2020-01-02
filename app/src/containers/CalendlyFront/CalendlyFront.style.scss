@@ -1,0 +1,5 @@
+@import "style/variable.scss";
+div.CalendlyFrontContainer {
+  @include flex-fill-up;
+  height: 100%;
+}

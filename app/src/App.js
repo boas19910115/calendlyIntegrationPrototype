@@ -1,11 +1,14 @@
 import React from 'react'
 import './App.scss'
-import { Calendly } from 'containers/Calendly'
+import { FrontEndPlatfrom, BackEndPlatfrom } from 'AppRouterContainer'
+import PopupContainer from 'components/Popup'
 
-function App () {
+function App() {
   return (
     <div className='App'>
-      <Calendly />
+      <FrontEndPlatfrom />
+      <BackEndPlatfrom />
+      <PopupContainer />
     </div>
   )
 }

@@ -1,0 +1,8 @@
+@import "style/variable.scss";
+
+div.CalendlyPlatformContainer {
+  @include flex-fill-up;
+  > iframe {
+    @include flex-fill-up;
+  }
+}

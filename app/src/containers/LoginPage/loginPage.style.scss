@@ -1,0 +1,40 @@
+@import "style/variable.scss";
+div.LoginPageContainer {
+  @include flex-fill-up;
+  flex-direction: row;
+  > * {
+    @include flex-fill-up;
+    > button {
+      outline: none;
+      padding: 0;
+      color: white;
+      font-weight: 900;
+      font-size: 1em;
+      @include flex-fill-up;
+      transition: all 500ms;
+      border: none;
+      &:hover {
+        font-size: 2em;
+      }
+    }
+    &.GoogleSignIn {
+      button {
+        cursor: pointer;
+        background-color: #ff3e308a;
+        &:hover {
+          background-color: #ff3e30;
+        }
+      }
+    }
+    &.FacebookSignIn {
+      button {
+        cursor: pointer;
+
+        background-color: #3578e58a;
+        &:hover {
+          background-color: #3578e5;
+        }
+      }
+    }
+  }
+}
