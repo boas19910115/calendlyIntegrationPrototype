@@ -15,7 +15,7 @@ const msalConfig = {
 }
 
 const graphConfig = {
-  graphMeEndpoint: 'https://graph.microsoft.com/v1.0/me',
+  graphMeEndpoint: 'https://graph.microsoft.com/v1.0',
 }
 
 const microsoft = new msal.UserAgentApplication(msalConfig)
