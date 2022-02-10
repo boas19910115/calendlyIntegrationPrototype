@@ -9,7 +9,7 @@
     "jquery": "^3.4.1",
     "luxon": "^1.21.3",
     "msal": "^1.2.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
